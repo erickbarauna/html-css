@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>Meu site HTML4</title>
+    </head>
+    <body bgcolor='blue'> 
+        <h1>Exemplo de site HTML4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius nemo facilis porro eaque quae provident, obcaecati facere quibusdam assumenda laudantium repudiandae enim, voluptatem, nam debitis inventore quo non autem.</p>
+    </body>
+</html>

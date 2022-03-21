@@ -1,0 +1,42 @@
+@charset "UTF8";
+
+/*
+    oq em HTML é id, em CSS é # (só pode um elemento) 
+    oq em HTML é class, em CSS é . (pode vários elementos)
+*/
+
+body {
+    background-color: #E1F2FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #49392C;
+}
+
+h1 {
+    color: #77625C;
+}
+
+h2 {
+    color: #77625C;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #2E6171;
+    color: #E1F2FE;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: rgb(80, 80, 252);
+}
+
+.avançado {
+    color: rgb(255, 58, 58);
+}
+
+.destaque {
+    background-color: aquamarine;
+}
