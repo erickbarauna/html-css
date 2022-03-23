@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio das Tags</title>
+    <style>
+        abbr {
+            text-decoration: underline;
+        }
+
+        abbr:hover {
+            text-decoration: none;
+            color: blue;
+        }
+
+        div {
+            min-width: 600px;
+            max-width: 800px;
+        }
+
+        li {
+            padding-bottom: 5px;
+        }
+
+        ul {
+            columns: 2;
+        }
+    </style>
 </head>
 <body>
     <h1>Tags em HTML</h1>
     <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobrir qual tag deverá utilizar em casda caso.</p>
-    <ul type="square">
+    <div>
+        <ul type="square">
         <li><abbr title="Use a tag &lt;p&gt;">Parágrafos</abbr></li>
         <li><abbr title="Use a tag &lt;br&gt;">Quebra de linha</abbr></li>
         <li><abbr title="Use a tag &lt;h1&gt;">Títulos</abbr></li>
@@ -44,6 +68,7 @@
         <li><abbr title="Use a tag & darr;">Símbolo - &darr;</abbr></li>
         <li><abbr title="Use a tag & harr;">Símbolo - &harr;</abbr></li>
         <li><abbr title="Use as tags (&lt;picture&gt; &lt;source midia&gt; &lt;source midia&gt; &lt;img&gt; &lt;img&gt; &lt;picture&gt;) obs: sempre a maior imagem na tag img e as outras em forma decrescente acima da mesma. Exemplo no ex011">Imagens dinâmicas</abbr></li>
-    </ul>
+        </ul>
+    </div>
 </body>
 </html>
