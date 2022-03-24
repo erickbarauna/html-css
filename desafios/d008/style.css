@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.pag-cinza {
+    background-color: rgba(128, 128, 128, 0.37);
+    font-size: 20px;
+}
+
+.pag-verde {
+    background-color: rgba(0, 212, 0, 0.37);
+    font-size: 20px;
+}
+
+.pag-amarela {
+    background-color: rgba(255, 255, 0, 0.37);
+    font-size: 20px;
+}
+
+.link-cinza {
+    text-decoration: underline;
+    color: rgb(104, 101, 101);
+}
+
+.link-amarelo {
+    text-decoration: underline;
+    color: rgb(255, 255, 28);
+}
+
+.link-verde {
+    text-decoration: underline;
+    color: rgb(14, 165, 14);
+}
+
+li {
+    padding-bottom: 5px;
+}
