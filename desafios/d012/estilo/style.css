@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Static';
+    src: url(../fontes/static/);
+}
+
+@font-face {
+    font-family: 'Gabriela';
+    src: url(../fontes/Gabriela-Regular.ttf);
+}
+
+:root {
+    --fonte1: Verdama, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Static', serifa;
+    --fonte3: 'Gabriela', cursiva;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +24,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -18,16 +35,23 @@ header {
 
 header h1 {
     padding-top: 50px;
+    padding-bottom: 25px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 8vw;
 }
 
 header p {
     padding-bottom: 50px;
+    font-family: var(--fonte3);
+    font-weight: lighter;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: larger;
     font-weight: bolder;
 }
 
@@ -38,8 +62,14 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 30px;
+}
+
+section p {
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    font-weight: bold;
+    line-height: 2.3em;
 }
 
 section.normal {
@@ -54,7 +84,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
+    display: inline-block;
 }
 
 footer {
