@@ -6,14 +6,14 @@
 }
 
 @font-face {
-    font-family: 'Gabriela';
-    src: url(../fontes/Gabriela-Regular.ttf);
+    font-family: 'Sriracha';
+    src: url(../fontes/Sriracha-Regular.ttf);
 }
 
 :root {
     --fonte1: Verdama, Geneva, Tahoma, sans-serif;
     --fonte2: 'Static', serifa;
-    --fonte3: 'Gabriela', cursiva;
+    --fonte3: 'Sriracha', cursiva;
 }
 
 * {
@@ -39,7 +39,7 @@ header h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 7vw;
 }
 
 header p {
@@ -63,13 +63,13 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.1vw;
 }
 
-section p {
-    font-family: var(--fonte3);
-    font-size: 3.5vw;
-    font-weight: bold;
-    line-height: 2.3em;
+section p { 
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -85,6 +85,17 @@ section.imagem {
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
     display: inline-block;
+}
+
+section#img01 {
+    background-image: url(../imagens/#img01);
+}
+
+section#img02 {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/23/10/38/book-3101151__340.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 footer {
