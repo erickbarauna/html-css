@@ -1,0 +1,4 @@
+body {
+    background: black url(fundo.jpg) bottom no-repeat fixed;
+    background-size: cover;
+}
