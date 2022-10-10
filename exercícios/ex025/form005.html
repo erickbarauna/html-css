@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulários</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas" value="M"><label for="isxmas">Masculino</label> <br>
+            <!-- Esse value="M" faz com que ao enviar o formulário o dado preenchido em Sexo seja M-->
+
+            <input type="radio" name="sexo" id="isxfem" value="F"><label for="isxfem">Feminino</label>
+            <!-- Todos os botões de radio tem que ter msm nome, o que impede o usuário de marcar mais de 1 -->
+
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas">Basquete</label> <br>
+            <!-- Esse label faz com que ao clicar no nome basquete marque a caixa input -->
+            
+            <input type="checkbox" name="esfut" id="iesfut" checked>
+            <label for="iesfut">Futebol</label> <br>
+            <!-- Esse checked marca a caixa automaticamente quando o site é carregado-->
+            
+            <input type="checkbox" name="esnat" id="iesnat">
+            <label for="iesnat">Natação</label> <br>
+            
+            <input type="checkbox" name="esten" id="iesten">
+            <label for="iesten">Tênis</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
