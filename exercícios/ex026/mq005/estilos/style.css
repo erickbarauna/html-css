@@ -55,7 +55,9 @@ menu > ul > li > a:hover {
 }
 
 main {
-    width: 90vw;
+    display: flex;
+    width: 75vw;
+    max-width: 1200px;
     background-color:#8cc3db;
     margin: auto;
     margin-top: 20px;
