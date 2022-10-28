@@ -2,15 +2,64 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
 body, html {
     background-color: #FFFFEA ;
     color: #03045E;
-    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #f895b3;
+}
+
+header > menu > h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:#DA4167;
+    color: #FFFFFF;
+    border: 2px solid #FFCAD4;
+}
+
+menu > ul > li > a:hover {
+    background-color: #f06d8e;
 }
 
 main {
-    background-color:#74B3CE;
+    width: 90vw;
+    background-color:#8cc3db;
+    margin: auto;
+    margin-top: 20px;
     padding: 30px;
     border-radius: 25px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
     text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
 }
