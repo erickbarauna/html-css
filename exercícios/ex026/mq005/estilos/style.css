@@ -18,13 +18,22 @@ header {
     background-color: #f895b3;
 }
 
-header > menu > h1 {
+header > h1 {
     padding: 30px;
     text-align: center;
 }
 
-menu {
+#burguer {
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #DA4167;
+    color: white;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -38,7 +47,7 @@ menu > ul > li > a {
     text-align: center;
     background-color:#DA4167;
     color: #FFFFFF;
-    border: 2px solid #FFCAD4;
+    border-top: 2px solid #FFCAD4;
 }
 
 menu > ul > li > a:hover {
